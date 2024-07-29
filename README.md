@@ -14,6 +14,6 @@
 
 ## ScreenShots
 
-![Screenshot_1](https://github.com/user-attachments/assets/3b6fd885-18e7-4ee5-94c2-f2c67352a9c0)
-![Screenshot_2](https://github.com/user-attachments/assets/778f6086-1f92-43e4-bf4d-9c409ddb57f9)
-![Screenshot_3](https://github.com/user-attachments/assets/983209d3-a3a8-411e-be9b-6b819d93d40e)
+<img src="screenshots/Screenshot_1.png" data-canonical-src="screenshots/Screenshot_1.png" width="250" />
+<img src="screenshots/Screenshot_2.png" data-canonical-src="screenshots/Screenshot_2.png" width="250" />
+<img src="screenshots/Screenshot_3.png" data-canonical-src="screenshots/Screenshot_3.png" width="250" />
