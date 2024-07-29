@@ -13,7 +13,8 @@
 - run `yarn android` or `yarn ios` to run on device or emulator
 
 ## ScreenShots
-
-<img src="screenshots/Screenshot_1.jpg" data-canonical-src="screenshots/Screenshot_1.jpg" width="250" />
-<img src="screenshots/Screenshot_2.jpg" data-canonical-src="screenshots/Screenshot_2.jpg" width="250" />
-<img src="screenshots/Screenshot_3.jpg" data-canonical-src="screenshots/Screenshot_3.jpg" width="250" />
+<p align="center">
+  <img src="screenshots/Screenshot_1.jpg" data-canonical-src="screenshots/Screenshot_1.jpg" width="250" />
+  <img src="screenshots/Screenshot_2.jpg" data-canonical-src="screenshots/Screenshot_2.jpg" width="250" />
+  <img src="screenshots/Screenshot_3.jpg" data-canonical-src="screenshots/Screenshot_3.jpg" width="250" />
+</p>
