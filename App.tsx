@@ -11,13 +11,15 @@ const Stack = createStackNavigator();
 
 function App(): React.JSX.Element {
 
+  
+
   return (
     <GestureHandlerRootView>
       <NavigationContainer>
         <Stack.Navigator initialRouteName="StartScreen">
           <Stack.Screen name="StartScreen" component={StartScreen} options={{ headerShown: false }}/>
           <Stack.Screen name="TaskScreen" component={TaskScreen} options={{ headerShown: false }}/>
-          <Stack.Screen name="SettingScreen" component={SettingScreen} options={{ headerShown: false}}/>
+          <Stack.Screen name="SettingScreen" component={SettingScreen} options={{ headerShown: false}}/>  
         </Stack.Navigator>
       </NavigationContainer>
     </GestureHandlerRootView>
