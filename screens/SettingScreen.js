@@ -12,6 +12,8 @@ function SettingScreen({ navigation }) {
     const [password, setPassword] = useState("DEBUG_PASSWORD")
     const [dialogVisible, setDialogVisible] = useState(false);
 
+    
+
     const onSwipe = (event) => {
         const { translationX } = event.nativeEvent;
         if (translationX > 50) {
@@ -47,10 +49,15 @@ function SettingScreen({ navigation }) {
                     <TouchableOpacity style={{backgroundColor: "#303030", width: 270, paddingVertical: 20, borderRadius: 20, alignItems: "center", marginTop: 30}} onPress={() => {Alert.alert("???", "아직 개발중!");}}>
                         <Text style={{color: isDarkMode? "#FFFFFF": "#010101", fontSize: 18}}>???</Text>
                     </TouchableOpacity>
+<<<<<<< HEAD
                     <TouchableOpacity  style={{backgroundColor: "#303030", width: 270, paddingVertical: 20, borderRadius: 20, alignItems: "center", marginTop: 30}} onPress={() => {setDialogVisible(true)}}>
                         <Text style={{color: isDarkMode? "#FFFFFF": "#010101", fontSize: 18}}>Debug Menu</Text>
                     </TouchableOpacity>
                     <Text style={{fontSize: 23, color: isDarkMode? "#FFFFFF" : "#010101", textAlign: "center", flex: 9, marginBottom: 20, textAlignVertical: "bottom"}}>Version: 1.2.0</Text>
+=======
+                    <Text style={{fontSize: 23, color: isDarkMode? "#FFFFFF" : "#010101", textAlign: "center", flex: 9, marginBottom: 20, textAlignVertical: "bottom"}}>Version: 1.1.0</Text>
+                    {/* 2024-07-29: 1.0.0 | 2024-07-30: 1.1.0 */}
+>>>>>>> 66c0f93 (Version 1.1.0)
                 </View>
             </View>
         </PanGestureHandler>
