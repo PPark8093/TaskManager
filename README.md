@@ -9,7 +9,7 @@
 
 ## ScreenShots
 <p align="center">
-   <img src="https://github.com/user-attachments/assets/fce27edf-1f97-4864-b811-345b9c8b1e0d" align="center" width="32%">
-   <img src="https://github.com/user-attachments/assets/781e8d09-e7ff-40de-9630-7010c707b4ba" align="center" width="32%">
-   <img src="https://github.com/user-attachments/assets/b656d4b8-f0c5-47a7-bbbd-fabf156df208" align="center" width="32%">
+   <img src="https://github.com/user-attachments/assets/67ac6e33-bd48-4095-96fa-54561bc339f0" align="center" width="32%">
+   <img src="https://github.com/user-attachments/assets/fc4f415d-e5d8-4953-8c1e-99d7debf69f2" align="center" width="32%">
+   <img src="https://github.com/user-attachments/assets/30e7bc01-1fff-4e44-b5de-b090ca059e3d" align="center" width="32%">
 </p>
