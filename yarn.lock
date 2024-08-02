@@ -3135,6 +3135,7 @@ __metadata:
     react-native-calendars: ^1.1306.0
     react-native-customized-datepicker: ^0.0.12
     react-native-date-picker: ^5.0.4
+    react-native-dialog: ^9.3.0
     react-native-gesture-handler: ^2.17.1
     react-native-safe-area-context: ^4.10.8
     react-native-screens: ^3.32.0
@@ -8201,6 +8202,15 @@ __metadata:
     react: ">= 17.0.1"
     react-native: ">= 0.64.3"
   checksum: 67db7fba5de613c61a70b5b9274daef8c7d3b6f6cdc5a6063eb61126d4df43252c501c2cb78ebda37fb0997ccb0994e949976d0fb395453580019923100e03ad
+  languageName: node
+  linkType: hard
+
+"react-native-dialog@npm:^9.3.0":
+  version: 9.3.0
+  resolution: "react-native-dialog@npm:9.3.0"
+  peerDependencies:
+    react-native: ">=0.63.0"
+  checksum: 148fcd9e4cb3001a8bbed02f465833329a83bc60efbf763a9bf227ec81208a41e03055e8bc213aea838933878f3cc7c3ca18a15446e819c17509cad75362d7ca
   languageName: node
   linkType: hard
 
