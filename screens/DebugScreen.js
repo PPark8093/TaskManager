@@ -71,9 +71,9 @@ function DebugScreen({ navigation }) {
         <View style={{flex: 1, backgroundColor: isDarkMode ? "#010101" : "#FFFFFF"}}>
             <StatusBar backgroundColor={isDarkMode? "#010101" : "#FFFFFF"} />
                 
-            <TouchableOpacity style={{flexDirection: "row", marginTop: 5, marginLeft: 5}} onPress={() => {navigation.navigate("SettingScreen")}}>
-                <Image source={arrow_back_filled} style={{width: 20, height: 20, marginTop: 2, tintColor: "#AAAAAA"}} />
-                <Text style={{color: "#AAAAAA"}}>설정</Text>
+            <TouchableOpacity style={{flexDirection: "row", marginTop: 7, marginLeft: 5}} onPress={() => {navigation.navigate("SettingScreen")}}>
+                <Image source={arrow_back_filled} style={{width: 19, height: 19, marginTop: 0, tintColor: "#AAAAAA"}} />
+                <Text style={{color: "#AAAAAA", fontSize: 16}}>설정</Text>
             </TouchableOpacity>
             <View style={{flex: 1, alignItems: "center", justifyContent: "center"}}>
                 <Text style={{ fontSize: 40, fontWeight: "400", color: isDarkMode ? "#FFFFFF" : "#010101" }}>Debug Menu</Text>

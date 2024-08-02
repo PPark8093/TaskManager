@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from "react";
-<<<<<<< HEAD
 import { Appearance, Dimensions, FlatList, Image, StatusBar, Text, TextInput, TouchableOpacity, View } from "react-native";
-=======
-import { Appearance, Dimensions, FlatList, StatusBar, Text, TextInput, TouchableOpacity, View } from "react-native";
->>>>>>> 66c0f93 (Version 1.1.0)
 import DatePicker from "react-native-date-picker";
 import { getItem, saveItem } from "../utils/DataSave";
 
@@ -86,17 +82,9 @@ function TaskScreen({ navigation }) {
     }
 
     const renderItem = ({item, index}) => {
-<<<<<<< HEAD
         const dateMatch = item.match(/\d{4}-\d{1,2}-\d{1,2}/);
         const timeMatch = item.match(/(\d+시\d+분)/);
 
-=======
-        // 날짜와 시간 정보를 추출합니다.
-        const dateMatch = item.match(/\d{4}-\d{1,2}-\d{1,2}/);
-        const timeMatch = item.match(/(\d+시\d+분)/);
-
-        // 할 일 내용 부분을 추출합니다.
->>>>>>> 66c0f93 (Version 1.1.0)
         const taskContent = item.split('\n')[1];
 
         return (
@@ -118,14 +106,10 @@ function TaskScreen({ navigation }) {
     return(
         <View style={{ flex: 1, backgroundColor: isDarkMode ? "#010101" : "#FFFFFF" }}>
             <StatusBar backgroundColor={isDarkMode? "#010101" : "#FFFFFF"} />
-<<<<<<< HEAD
             <TouchableOpacity style={{flexDirection: "row", marginTop: 7, marginLeft: 5}} onPress={() => {navigation.navigate("StartScreen")}}>
                 <Image source={arrow_back_filled} style={{width: 19, height: 19, marginTop: 0, tintColor: "#AAAAAA"}} />
                 <Text style={{color: "#AAAAAA", fontSize: 16}}>시작</Text>
             </TouchableOpacity>
-=======
-            
->>>>>>> 66c0f93 (Version 1.1.0)
             <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
                 <Text style={{ fontSize: 40, fontWeight: "100", color: isDarkMode ? "#FFFFFF" : "#010101" }}>작업 목록</Text>
             </View>
