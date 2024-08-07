@@ -3,7 +3,7 @@
 
 ## Setup
 
-## Run on Devcie
+## Run on Device
 
 - run `yarn android` or `npx react-native run-android` to run on device or emulator
 
